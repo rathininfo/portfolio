@@ -14,19 +14,13 @@ const Footer = () => {
 
       {/* Social Icons */}
       <div className="flex justify-center space-x-6 mt-4">
-        <a href="https://facebook.com" aria-label="Facebook" className="text-gray-400 hover:text-white transition">
+        <a href="https://web.facebook.com/rathininfo" aria-label="Facebook" className="text-gray-400 hover:text-white transition">
           <FaFacebookF size={24} />
         </a>
-        <a href="https://twitter.com" aria-label="Twitter" className="text-gray-400 hover:text-white transition">
+        <a href="https://x.com/rathininfo" aria-label="Twitter" className="text-gray-400 hover:text-white transition">
           <FaTwitter size={24} />
         </a>
-        <a href="https://google.com" aria-label="Google" className="text-gray-400 hover:text-white transition">
-          <FaGoogle size={24} />
-        </a>
-        <a href="https://youtube.com" aria-label="YouTube" className="text-gray-400 hover:text-white transition">
-          <FaYoutube size={24} />
-        </a>
-        <a href="https://linkedin.com" aria-label="LinkedIn" className="text-gray-400 hover:text-white transition">
+        <a href="https://www.linkedin.com/in/rathininfo/" aria-label="LinkedIn" className="text-gray-400 hover:text-white transition">
           <FaLinkedin size={24} />
         </a>
       </div>
