@@ -2,7 +2,7 @@ import React from "react";
 
 const Education = () => {
   return (
-    <div className="py-16 sm:py-24 md:py-20">
+    <div id="education" className="py-16 sm:py-24 md:py-20">
       <div className="max-w-4xl mx-auto px-6">
         <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 text-center py-5">
           Educational Qualification

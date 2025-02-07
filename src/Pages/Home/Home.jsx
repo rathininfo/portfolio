@@ -8,7 +8,7 @@ import Contact from './Contact/Contact'
 
 function Home() {
   return (
-    <div>
+    <div id="home">
       <Banner></Banner>
       <AboutMe></AboutMe>
       <Skill></Skill>

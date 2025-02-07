@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { HashLink as Link } from "react-router-hash-link"; // Import HashLink for smooth scrolling
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,7 +21,7 @@ const Navbar = () => {
             (item) => (
               <li key={item}>
                 <Link
-                  to={`/${item.toLowerCase()}`}
+                  to={`/#${item.toLowerCase()}`} // Using HashLink for smooth scroll to sections
                   className="hover:text-blue-400 transition"
                 >
                   {item}
@@ -56,7 +56,7 @@ const Navbar = () => {
               (item) => (
                 <li key={item}>
                   <Link
-                    to={`/${item.toLowerCase()}`}
+                    to={`/#${item.toLowerCase()}`} // Using HashLink for smooth scroll to sections
                     className="block text-white hover:text-blue-400 transition"
                     onClick={() => setIsOpen(false)}
                   >

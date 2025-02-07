@@ -4,7 +4,7 @@ import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa"; // Impo
 const Contact = () => {
   return (
     <>
-      <div>
+      <div id="contact">
         <h1 className="font-bold text-3xl text-center mt-7">Contact</h1>
         <div className="mb-6">
           <div className="border rounded-lg p-6 shadow-md max-w-4xl mx-auto mt-10 flex flex-col md:flex-row">

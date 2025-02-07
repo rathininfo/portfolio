@@ -17,7 +17,7 @@ const Project = () => {
   };
 
   return (
-    <div className="bg-gray-100 p-8 sm:p-12 md:p-16">
+    <div id="project" className="bg-gray-100 p-8 sm:p-12 md:p-16">
       <h1 className="text-center font-bold text-3xl sm:text-4xl">Projects</h1>
 
       {/* Tea House Project */}
